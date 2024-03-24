@@ -19,8 +19,9 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .header-logo .logo-part {
-    color: #434455;
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -28,13 +29,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.nav-link:hover {
-    color: #404bbf;
-}
+
+.nav-link:hover,
 .nav-link:active {
     color: #404bbf;
-    text-decoration: underline;
 }
 
 .contact-link {
@@ -45,6 +45,7 @@ a {
     color: #434455;
     font-style: normal;
 }
+
 .contact-link:hover{
     color: #404bbf;
 }
@@ -54,78 +55,146 @@ a {
     background: #2e2f42;
     color: #fff;
 }
+
 .hero-heading {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .hero-button {
+    font-family: inherit
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4d5ae5;
     color: #fff;
+    cursor: pointer;
 }
+
 .hero-button:hover{
     background: #404bbf;
 }
+/* ----------- */
+
+/* 4 points for improvement */
+
+.improv {
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+.improv-list {
+    }
+
+.improv-item {
+    }
+
+.improv-item-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.improv-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ---------- */
 
 /* our team */
 .team {
     background: #f4f4fd;
     letter-spacing: 0.02em;
-    text-align: center;
+ 
 }
+
 .team-heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
+    text-align: center;
 }
+
+.team-list{
+}
+
 .team-item {
     background: #fff;
-    width: 264px;
-    height: 380px;
 }
+
+.team-image{
+}
+
 .team-item-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
 }
+
 .team-desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    text-align: center;
 }
 
 /* our portfolio */
 .partfolio {
     letter-spacing: 0.02em;
 }
+
 .partfolio-heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
 }
+
+.partgolio-list{
+}
+
+.partfolio-item{
+    background: #fff;
+}
+
+.partfolio-image{
+}
+
 .partfolio-item-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
+
 .partfolio-desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
 }
+/* ------- */
 
-
-
-
+/* footer */
 footer {
     background-color: #2e2f42;
 }
@@ -133,7 +202,6 @@ footer {
     color: #f4f4fd;;
 }
 .footer-content {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
