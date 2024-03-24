@@ -33,20 +33,25 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:active,
+.nav-link:focus {
     color: #404bbf;
 }
 
+.contact{
+    font-style: normal; 
+}
 .contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
-.contact-link:hover{
+.contact-link:hover,
+.nav-link:active,
+.contact-link:focus {
     color: #404bbf;
 }
 
@@ -65,7 +70,7 @@ a {
 }
 
 .hero-button {
-    font-family: inherit
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -75,7 +80,8 @@ a {
     cursor: pointer;
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus {
     background: #404bbf;
 }
 /* ----------- */
@@ -84,19 +90,6 @@ a {
 
 .improv {
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    }
 
 .improv-list {
     }
@@ -109,6 +102,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .improv-desc {
@@ -116,7 +110,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* ---------- */
@@ -124,15 +117,16 @@ a {
 /* our team */
 .team {
     background: #f4f4fd;
-    letter-spacing: 0.02em;
- 
 }
 
 .team-heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-list{
@@ -149,26 +143,30 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .team-desc {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 /* our portfolio */
 .partfolio {
-    letter-spacing: 0.02em;
 }
 
 .partfolio-heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .partgolio-list{
@@ -185,12 +183,14 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .partfolio-desc {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    letter-spacing: 0.02em;
 }
 /* ------- */
 
